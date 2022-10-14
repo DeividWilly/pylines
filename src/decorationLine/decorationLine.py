@@ -56,13 +56,13 @@ end( New line break at the end ) = True or False
 Correct order:
 (type, amount, backgroundColor, color, reverse, end)
 
-To see all available colors and backgrounds, access the repository.
+To see all available colors and backgrounds, access the repository: https://github.com/DeividWilly/pylines
 """)
 
 def help_error():
 	print("""Key Error!
 Please declare the arguments for each type specified.
-For more information go to X or issue the help() command in the Python terminal.
+For more information go to https://github.com/DeividWilly/pylines or issue the help() command in the Python terminal.
 """)
 
 def whatColors():
