@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: decorationLine
-Version: 1.0.0
+Version: 1.0.1
 Summary: Python library to decorate the terminal in Python software.
 Home-page: https://github.com/DeividWilly/pylines
 Author: willypydev[DeividWilly]
