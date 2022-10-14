@@ -1,3 +1,3 @@
-import line
-line.printLine(3, 20, 'red', 'white')
-line.help()
+import decorationLine
+decorationLine.printLine(3, 20, 'red', 'white')
+decorationLine.help()

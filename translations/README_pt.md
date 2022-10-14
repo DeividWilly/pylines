@@ -1,6 +1,6 @@
-# pylines #
+# decorationLine #
 
-O **pylines** é uma bibloteca onde sua utilidade é decorar o seu programa Python que interaja no terminal.
+O **decorationLine** é uma bibloteca onde sua utilidade é decorar o seu programa Python que interaja no terminal.
 
 > Este projeto é _open-source_ e está livre para distribuição e modificações, para saber mais verifique os termos e condições da licença [GNU GPLv3](https://github.com/DeividWilly/pylines/blob/main/LICENSE).
 _ _ _
@@ -10,7 +10,7 @@ _ _ _
     * PIP
         * Windows
         * Linux
-    * Biblioteca _pylines_
+    * Biblioteca _decorationLine_
 * Como usar
 
 * Como colaborar
@@ -56,7 +56,7 @@ Para mais outras distribuições, consulte com seus respectivos sistemas.
 
 _ _ _
 
-### Biblioteca pylines
+### Biblioteca decorationLine
 
 _ _ _
 

@@ -32,9 +32,9 @@ types = {
 def info():
 	print("""
 Package Info:
-Version: 1.0 (Alpha)
+Version: 1.0.0 (Alpha)
 Author: WillyPyDev
-Last modified: 10/10/2022 (MM/DD/AA)
+Last modified: 10/14/2022 (MM/DD/AA)
 """)
 
 def help():
