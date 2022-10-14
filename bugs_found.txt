@@ -1,0 +1,3 @@
+Here all the bugs found will be reported. Each bug will have its number for better organization.
+
+#01: The print Line() function will report an error if you put only the first three arguments.
