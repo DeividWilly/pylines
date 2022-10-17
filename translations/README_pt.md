@@ -19,12 +19,12 @@ _ _ _
 
 ## Guia de instalação
 
-### PIP
+### **PIP**
 O **_PIP_** é um sistema de gerenciamento de pacotes para gerenciar bibliotecaas de software em Python. Os arquivos são armazenados no repositório online **_Python Package Index (PyPI)_**.
 
 Por padrão, o **pip** vai procurar os pacotes e suas dependências no repositório **_PyPI_**, mas também é possível instalar seus pacotes diretamento do código fonte.
 _ _ _
-#### Windows:
+### Windows:
 
 Baixe o arquivo **get-pip.py** e armazene-o no mesmo diretório que o **Python** está instalado.
 
@@ -40,7 +40,7 @@ O CMD retornará a versão instalado no sistema.
 
 _ _ _
 
-#### Linux 
+### Linux 
 
 No Debian, Ubuntu e derivados:
 ```bash
@@ -56,7 +56,13 @@ Para mais outras distribuições, consulte com seus respectivos sistemas.
 
 _ _ _
 
-### Biblioteca decorationLine
+### **Biblioteca decorationLine** ###
+
+Para instalar a biblioteca **decorationLine** é apenas necessário rodar o comando no terminal:
+
+```bash
+pip3 install decorationLine
+```
 
 _ _ _
 
@@ -76,4 +82,48 @@ printLine(
 Saída:
 
 ![](/assets/images/example-output.png)
+
+Há alguns tipos de linhas, cores e cores de fundo disponíveis. Você pode ver no código-fonte ou aqui mesmo:
+
+```python
+colors = {
+	'clear': '\033[m',
+	'black': '\033[30m',
+	'red': '\033[31m',
+	'green': '\033[32m',
+	'yellow': '\033[33m',
+	'blue': '\033[34m',
+	'magenta': '\033[35m',
+	'cyan': '\033[36m',
+	'white': '\033[37m'
+}
+```
+```python
+backgroundColors = {
+	'black': '\033[40m',
+	'red': '\033[41m',
+	'green': '\033[42m',
+	'yellow': '\033[43m',
+	'blue': '\033[44m',
+	'magenta': '\033[45m',
+	'cyan': '\033[46m',
+	'white': '\033[47m'
+}
+```
+```python
+types = {
+	1:'--',
+	2:'=-',
+	3:'*-',
+	4:'==',
+	5:'++',
+	6:'**',
+	7:'+-'
+}
+```
+Para chamar o argumento certo da função, basta apenas inserir o valor certo na posição de cada variável.
+
+## Como colaborar
+
+Abra uma issue e reporte bugs ou também pode reportá-los no `bugs_found.txt`.
 
